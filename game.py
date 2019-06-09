@@ -10,6 +10,13 @@ print("User Choice: ",user_choice)
 
 # Validate Inputs
 
+if user_choice in ["rock","paper","scissors"]:
+    print("valid")
+else:   
+    print("invalid selection please try again")
+    exit()
+
 # Generate Computer Selection
+print("Generating...")
 
 # Display Final Outputs / Outcomes
